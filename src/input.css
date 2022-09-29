@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+.modal-container{
+  background: #EC692C;
+}
+input[type=text]{
+  background: #EC692C;
+}
+input[type=email]{
+  background: #EC692C;
+}
+.two{
+  clip-path: polygon(52% 0%, 96% 50%, 52% 100%, 6% 50%);
+}
